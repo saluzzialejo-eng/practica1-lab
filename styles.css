@@ -16,8 +16,24 @@ header{
 
 }
 nav{
+    
+    background-color: aqua;
+    display: flex;
     text-align: center;
+    justify-content: flex-end;
 }
+.container_nav{
+    flex-direction: column;
+    background-color: brown;
+    
+}
+.container_logo{
+    background-color: black;
+    justify-content: flex-end;
+
+
+}
+
 .opcion_menu{
     display: inline;
 }
