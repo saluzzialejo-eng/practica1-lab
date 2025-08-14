@@ -4,29 +4,46 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFF8DC;
+    background-color:#FFFF;
 
 }
 header{
 
-    background-color: #FF7F50;
     height: 50px; 
     width: 100%;
 
 
 }
+
 nav{
     
-    background-color: aqua;
+    background-color: #FFFF;
     display: flex;
     text-align: center;
     justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+}
+.opc_nav{
+    font-weight:700 ;
+    padding: 20px;
+    color: #117A65      ;
+}
+.container_nav a{
+    text-decoration: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.container_nav{
+    display: inline-flex;
+    background-color:n;
+    
 }
 
 .titulo{
    font-size: 50px;                /* Tamaño de fuente */
   text-align: center;             /* Centrar texto */
-  background-image: url(/imagenes/texturaroja.jpg); /* Imagen de fondo */
+  background-image: url(/imagenes/patio.png); /* Imagen de fondo */
   background-position: center;    /* Centrar imagen */
   background-size: cover;         /* Que cubra todo el texto */
   color: transparent;             /* Texto transparente */
@@ -36,29 +53,12 @@ nav{
 
 }
 
-.container_nav a{
-    text-decoration: none;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-}
-.container_nav{
-    flex-direction: column;
-    background-color: brown;
-    
-}
-
-.container_logo{
-    background-color: black;
-    justify-content: flex-end;
-
-
-}
-
-
-
-.opcion_menu{
-    display: inline;
-}
+.imagen{
+    max-width: 1800px;
+    padding: 3%;     
+    margin: 0 auto;        
+    text-align: center;    
+  }
 section {
   max-width: 1800px;     
   margin: 0 auto;        
@@ -66,12 +66,55 @@ section {
 }
 
 .logo{
-    background-color: #FFFF;
-    width: 25px;           
-    height: 25px;
+    width: 50px;           
+    height: 50px;
     object-fit: cover;  /*no se deforma mi logo xd*/   
     border-radius: 50%;  
-    margin-left: 50rem; 
-
-
+    transition: all 1s;
+    margin: 10px;
+    
 }
+
+.logo:hover{
+    background-color: #FFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 60%;  
+    
+}
+.container_footer{
+    background-color: beige;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+   
+}
+.inicio_footer{
+    background-color: violet;
+    display: inline-flex;
+    flex-direction: column;
+   
+}
+.social_links{
+    background-color: #117A65;
+    display: inline-flex;
+    flex-direction: column;
+   
+}
+.social_link{
+    background-color: red;
+    
+    
+}
+.contact{
+    background-color: yellow;
+    display: inline-flex;
+    flex-direction: column;
+   
+}
+
+.bottom{
+    background-color: blue;
+    display: inline-flex;
+   flex-direction: column;
+} 
