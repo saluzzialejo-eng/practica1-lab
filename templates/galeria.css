@@ -1,0 +1,49 @@
+
+.titulo_galeria{
+    position: absolute;
+}
+
+
+.card{
+    padding: 3%;
+    background-color: violet;
+    transition: all 1s;
+
+
+}
+.card:hover{
+    background-color: blueviolet;
+    padding: 1%;
+    
+   
+}
+
+.galeria_section div{
+    text-align: left;
+
+}
+.galeria-s4{
+
+    background-image: url("/imagenes/cabaña.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; /* Un alto para que se vea bien la sección */
+
+    
+    animation-name: miAnimacion;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes miAnimacion {
+  0% {
+    background-position: 0% 0%; 
+  }
+  50% {
+    background-position: 50% 50%; 
+  }
+  100% {
+    background-position: 100% 100%; 
+}
+}

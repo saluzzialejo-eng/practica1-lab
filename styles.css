@@ -22,11 +22,31 @@ nav{
     text-align: center;
     justify-content: flex-end;
 }
+
+.titulo{
+   font-size: 50px;                /* Tamaño de fuente */
+  text-align: center;             /* Centrar texto */
+  background-image: url(/imagenes/texturaroja.jpg); /* Imagen de fondo */
+  background-position: center;    /* Centrar imagen */
+  background-size: cover;         /* Que cubra todo el texto */
+  color: transparent;             /* Texto transparente */
+  background-clip: text;          /* Recorte en el texto */
+  margin: 20px;                    /* Margen alrededor */
+
+
+}
+
+.container_nav a{
+    text-decoration: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
 .container_nav{
     flex-direction: column;
     background-color: brown;
     
 }
+
 .container_logo{
     background-color: black;
     justify-content: flex-end;
@@ -34,9 +54,17 @@ nav{
 
 }
 
+
+
 .opcion_menu{
     display: inline;
 }
+section {
+  max-width: 1800px;     
+  margin: 0 auto;        
+  text-align: center;    
+}
+
 .logo{
     background-color: #FFFF;
     width: 25px;           
